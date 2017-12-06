@@ -1,7 +1,7 @@
 var Attractor = function() {
 	this.pos = createVector(mouseX, mouseY);
 	this.mass = 20;
-	this.G = 25;
+	this.G = 15;
 
 	this.calculateAttraction = function(p) {
     // Calculate direction of force

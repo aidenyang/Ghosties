@@ -17,7 +17,7 @@ function Ghost(x, y, m) {
   }
 
   this.update = function() {
-    theta += random(0.02, 0.04);
+    theta += random(0.1, 0.2);
     this.vel = createVector(0, sin(theta) * amplitude);
     this.vel.add(this.acc);
     this.pos.add(this.vel);

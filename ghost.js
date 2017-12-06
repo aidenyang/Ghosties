@@ -1,8 +1,3 @@
-// Daniel Shiffman
-// https://www.kadenze.com/courses/the-nature-of-code
-// http://natureofcode.com/
-// Session 2: Array of Particles, multiple forces
-
 function Ghost(x, y, m) {
   var theta = 0.0;
   var amplitude = random(0.2, 0.3);

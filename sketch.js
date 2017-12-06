@@ -28,6 +28,10 @@ function keyPressed() {
   }
 }
 
+function deviceShaken() {
+  spawnGhosts();
+}
+
 function spawnGhosts() {
   ghosts = [];
   for (var i = 0; i < PARTICLE_COUNT; i++) {
